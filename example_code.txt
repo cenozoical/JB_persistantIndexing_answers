@@ -1,0 +1,22 @@
+a = 2
+print a
+scope {
+b = 3
+c = 4
+print b 
+print c
+scope {
+f = 5
+a = 7
+print f
+print b
+}
+print c
+}
+scope {
+h = 2
+j = 3
+print h
+print j
+}
+print a
